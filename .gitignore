@@ -1,0 +1,6 @@
+data/
+*.xlsx
+*.csv
+__pycache__/
+.DS_Store
+上手步骤与简历要点.md
