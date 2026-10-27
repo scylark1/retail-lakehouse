@@ -34,7 +34,7 @@ ORDER BY month;
 -- COMMAND ----------
 
 -- [Bar chart] New vs returning active customers per month
-SELECT month, new_customers, active_customers - new_customers AS returning_customers
+SELECT month, new_customers, active_customers - new_customers AS returning_customers, is_partial_month
 FROM mart_monthly_kpis
 ORDER BY month;
 
